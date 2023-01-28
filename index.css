@@ -1,0 +1,311 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.nav-superior {
+    width: 100%;
+
+    height: 100px;
+    background-color: rgb(14, 4, 100);
+    font-weight: bolder;
+}
+
+
+.nav-superior a {
+    color: white
+}
+
+.fundo {
+    width: 100%;
+    height: 400px;
+    background-image: url("imagens/plan.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tela {
+    background-color: rgb(14, 4, 100);
+}
+
+.titulo {
+    
+    width: 600px;
+    height: 200px;
+    font-size: 100px;
+    text-align: center;
+    color: aliceblue;
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 150px;
+    text-shadow: #000 2px 3px 2px;
+
+}
+
+.sobre {
+    margin: 20px;
+    color: aliceblue;
+}
+
+.texto {
+    margin: 20px;
+    color: aliceblue;
+    width: 500px;
+    height: 100px;
+    text-align: justify;
+
+}
+
+.bg2 {
+    background-color: rgb(14, 4, 100);
+    height: 220px;
+    margin-top: -30px;
+
+
+
+}
+
+.ctt {
+    text-align: center;
+    color: aliceblue;
+
+}
+
+.card-deck {
+    margin-left:270px;
+    margin-top: 20px;
+    width: 800px;
+    height: 300px;
+    text-align: center;
+
+}
+
+.planos {
+    margin-top: 10px;
+    margin-left: 350px;
+}
+
+.bg {
+    background-color: aliceblue;
+    width: auto;
+    height: 70px;
+    margin-top: 200px;
+    text-align: center;
+    font-size: 35px;
+
+
+}
+
+.card-img-top1 {
+    width: 200px;
+    height: 200px;
+
+}
+
+.card-text1 {
+    width: 250px;
+    height: 100px;
+    color: aliceblue;
+    text-align: justify;
+    margin: 20px;
+}
+
+.card-title1 {
+    color: aliceblue;
+    text-align: justify;
+    margin: 20px;
+
+}
+
+.card1 {
+    width: 550px;
+    height: 250px;
+    display: inline-table;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+.contentEnd p {
+    color: black;
+    margin: 20px;
+    font-size: 40px;
+
+}
+
+.contentEnd ul {
+    color: black;
+    margin: 20px;
+    font-size: 25px;
+}
+
+.bg1 {
+    background-color: aliceblue;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.rwb-tooltip {
+    background-color: #000;
+    color: white;
+    font-weight: bolder;
+    display: none;
+}
+
+
+.nav-topo {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: rgb(14, 4, 100);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-topo .nav-logo{
+    width: 180px;
+}
+
+.nav-topo li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.nav-topo a{
+    color: white;
+}
+
+
+@media(max-width:600px) {
+
+    .nav-topo{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-topo .content-links{
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .container{
+        width: 100%;
+    }   
+    .logo{
+        
+        height: 80px;
+        margin-bottom: 120px;
+    }
+    .nav-link {
+        display: flex;
+
+    }
+
+    .fundo {
+        margin-top: 170px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .titulo {
+        
+        width: 90%;
+        height: 200px;
+        font-size: 100px;
+        text-align: center;
+        color: aliceblue;
+        position: absolute;
+        margin-left:10px;
+        margin-top: 100px;
+        text-shadow: #000 2px 3px 2px;
+
+
+    }
+    .bg2 {
+        background-color: rgb(14, 4, 100);
+        width: 100%;
+        height: 200px;
+        
+    }
+    .texto {
+        margin: 20px;
+        color: aliceblue;
+        width: 400px;
+        height: 200px;
+        text-align: justify;
+        font-size: 15px;
+    }
+    .planos {
+        width: 90%;
+        height: 270px;
+        margin-top: 100px;
+        margin-left: 20px;
+        align-items: center;
+    }
+    .ctt {
+        width: 100%;
+        height: 100px;
+        font-size: 20px;
+        text-align: center;
+        color: aliceblue;
+
+    }
+    .card-deck {
+        margin-left:70px;
+        margin-top: 20px;
+        width:70%;
+        font-size: 15px;
+        text-align: center;
+    }
+    .bg {
+        font-size: 20px;
+        background-color: aliceblue;
+        width: 100%;
+        height: 60px;
+        margin-top: 1250px;
+        
+    }
+    .card1 {
+        width: 80%;
+        height: 80%;
+        margin-left: 20px;
+
+        
+        
+    }
+
+    .card-text1{
+        height: 100px;
+        width:400px ;
+    }
+    .mapa{
+        display: none;
+        
+    }
+    .bg1{
+        display: flex;
+    }
+    .contentEnd li {
+        color: black;
+        margin: 10px;
+        font-size: 20px;
+
+    }
+    .contentEnd p {
+        color: black;
+        margin: 10px;
+        font-size: 25px;
+
+    }
+    
+}
+
+
+
